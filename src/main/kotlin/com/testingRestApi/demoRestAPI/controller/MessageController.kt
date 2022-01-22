@@ -1,12 +1,9 @@
 package com.testingRestApi.demoRestAPI.controller
 
-import com.testingRestApi.demoRestAPI.model.MessageData
-import com.testingRestApi.demoRestAPI.model.RootDataResponse
-import org.springframework.boot.context.properties.bind.Bindable.listOf
+import com.testingRestApi.demoRestAPI.rootModel.MessageData
+import com.testingRestApi.demoRestAPI.rootModel.RootDataResponse
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
-import java.util.*
-import java.util.Collections.emptyList
 
 @RestController
 class MessageController {

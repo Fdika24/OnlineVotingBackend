@@ -1,4 +1,4 @@
-package com.testingRestApi.demoRestAPI.model
+package com.testingRestApi.demoRestAPI.rootModel
 
 import org.intellij.lang.annotations.Identifier
 

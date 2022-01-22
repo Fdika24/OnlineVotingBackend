@@ -1,4 +1,4 @@
-package com.testingRestApi.demoRestAPI.model
+package com.testingRestApi.demoRestAPI.rootModel
 
 data class RootDataResponse <T> (
     val status:Int,
